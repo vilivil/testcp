@@ -11,10 +11,11 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    width: 100vw;
 }
 h1 {
-    text-align: center;
-    
+    text-align: center;  
     font-size: 100px;
     color: rgb(255, 255, 255);
     font-family:'Pacifico', Helvetica, sans-serif;
