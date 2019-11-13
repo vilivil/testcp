@@ -1,0 +1,22 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bg {
+    background: url(bg2.png);
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    font-family:'Pacifico', Helvetica, sans-serif;
+    font-weight: 50;
+}
