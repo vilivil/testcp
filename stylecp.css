@@ -49,11 +49,13 @@
 .arrow {
     height: 40px;
     padding-top: 45px;
-    animation-name: arrow;
-    animation-duration: 3s infinite;
+    animation: arrow 5s infinite;
 }
 
 @keyframes arrow {
+
+    transition:ease;
+
     0% {
         padding-top: 45px;
     }
