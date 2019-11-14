@@ -11,13 +11,57 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     width: 100vw;
+    height: 100vh;
 }
-h1 {
-    text-align: center;  
+.hero-title {
+    text-align: center;
     font-size: 100px;
     color: rgb(255, 255, 255);
     font-family:'Pacifico', Helvetica, sans-serif;
     font-weight: 100;
+    padding: 20px;
+    padding-bottom: 40px;
 }
+
+.hero-text-link {
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    border: 3px solid white;
+    padding: 7px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+}
+
+.hero-text-link:hover {
+    background: white;
+    color: black;
+    transition: 0.5s ease;
+}
+
+.hero-text-link:link{
+    color:white;
+}
+
+.arrow {
+    height: 40px;
+    padding-top: 45px;
+    animation-name: arrow;
+    animation-duration: 3s infinite;
+}
+
+@keyframes arrow {
+    0% {
+        padding-top: 45px;
+    }
+    50%{
+        padding-top: 55px;
+    }
+    100%{
+        padding-top: 45px;
+    }
+}
+
